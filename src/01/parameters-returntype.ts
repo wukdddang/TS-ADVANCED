@@ -16,5 +16,4 @@ type GetDetailedWeatherParameters = Parameters<typeof getDetailedWeather>;
 
 type tests = [
     Expect<Equal<GetLocationWeatherReturn, unknown>>,
-    Expect<Equal<GetDetailedWeatherParameters, unknown>>
-];
+    Expect<Equal<GetDetailedWeatherParameters, unknown>>;
